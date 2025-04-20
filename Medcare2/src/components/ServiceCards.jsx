@@ -1,9 +1,15 @@
+import bookApptIcon from "../assets/Homepage/bookappt_icon.svg";
+import reportIcon from "../assets/Homepage/report.svg";
+import onlineIcon from "../assets/Homepage/online.svg";
+import buyIcon from "../assets/Homepage/buy.svg";
+import hospitalIcon from "../assets/Homepage/hospital.svg";
+
 const services = [
-  { img: "src/assets/Homepage/bookappt_icon.svg", title: "Book Appointment" },
-  { img: "src/assets/Homepage/report.svg", title: "Download Reports" },
-  { img: "src/assets/Homepage/online.svg", title: "Consult Doctors Online" },
-  { img: "src/assets/Homepage/buy.svg", title: "Buy Medicines" },
-  { img: "src/assets/Homepage/hospital.svg", title: "Nearest Clinics and Hospitals" },
+  { img: bookApptIcon, title: "Book Appointment" },
+  { img: reportIcon, title: "Download Reports" },
+  { img: onlineIcon, title: "Consult Doctors Online" },
+  { img: buyIcon, title: "Buy Medicines" },
+  { img: hospitalIcon, title: "Nearest Clinics and Hospitals" },
 ];
 
 const ServiceCards = () => {
